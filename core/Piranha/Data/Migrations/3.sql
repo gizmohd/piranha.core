@@ -9,3 +9,5 @@
 
 ALTER TABLE [Piranha_Pages] ADD [RedirectUrl] NVARCHAR(255) NULL;
 ALTER TABLE [Piranha_Pages] ADD [RedirectType] INT NOT NULL DEFAULT(0);
+ALTER TABLE [Piranha_Media] ADD [Type] INT NOT NULL DEFAULT(0);
+ 

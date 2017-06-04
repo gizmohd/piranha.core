@@ -7,7 +7,7 @@
 -- http://github.com/piranhacms/piranha
 -- 
 
-ALTER TABLE [Piranha_Media] ADD [Type] INT NOT NULL DEFAULT(0);
+
 
 UPDATE [Piranha_Media] SET [Type] = 1 WHERE [ContentType] LIKE 'document/%' OR [ContentType] LIKE 'application/%';
 UPDATE [Piranha_Media] SET [Type] = 2 WHERE [ContentType] LIKE 'image/%';
